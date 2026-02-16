@@ -20,7 +20,7 @@ promiseVar.then((user) => {
 //use fetch function...
 let header = {
     headers: {
-        'Authorization': 'Basic ZGV2ZWxvcGVyOldmUnEuVjx9NWs5WkVNQDQ'
+        'Authorization': 'bearer token'
     }
 };
 let url = 'https://<DOMAIN_NAME>/fmi/data/v1/databases';
